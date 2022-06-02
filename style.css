@@ -1,4 +1,32 @@
 /*Folhas de estilo do site wwww.cyaconquista.com.br */
-body {
-  background-color: rgb(255, 183, 0);
+
+/*Smartphone landscape*/
+
+@media (min-width: 576px) {
+  body {
+    background-color: #00fff0;
+  }
+}
+
+/*Smartphone tablet*/
+
+@media (min-width: 768px) {
+  body {
+    background-color: #ff6600;
+  }
+}
+
+/*Smartphone landscape*/
+
+@media (min-width: 9926px) {
+  body {
+    background-color: #42b11e;
+  }
+}
+/*Notebooks*/
+
+@media (min-width: 9926px) {
+  body {
+    background-color: #b1511e;
+  }
 }
